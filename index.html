@@ -4,8 +4,44 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     
+<div class="calculator">
+    <div class="input" id="input"></div>
+    <div class="buttons">
+      <div class="operators">
+        <button>+</button>
+        <button>-</button>
+        <button>&times;</button>
+        <button>&divide;</button>
+      </div>
+      <div class="left-side">
+        <div class="numbers">
+          <button class="btn">7</button>
+          <button class="btn">8</button>
+          <button class="btn">9</button>
+        </div>
+        <div class="numbers">
+          <button class="btn">4</button>
+          <button class="btn">5</button>
+          <button class="btn">6</button>
+        </div>
+        <div class="numbers">
+          <button class="btn">1</button>
+          <button class="btn">2</button>
+          <button class="btn">3</button>
+        </div>
+        <div class="numbers last">
+          <button class="btn">0</button>
+          <button id="decimal">.</button>
+          <button id="clear">C</button>
+        </div>
+      </div>
+    <button class="equal" id="result">=</button>
+    </div>
+  </div>
+  <script src="app.js"></script>
 </body>
 </html>
